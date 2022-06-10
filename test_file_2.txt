@@ -1,10 +1,12 @@
 Test
 
 1. What does the file status new mean in the output of the git status command?
-- That the file has just been created and is not yet tracked by Git
+
+- That the file has just been created and is not yet tracked by Git.
 
 2. What does the status of a modified file mean in the output of the git status command?
-- That the file has a history in the Git system and has been modified from its last state
+
+- That the file has a history in the Git system and has been modified from its last state.
 
 3. What is a commit?
 - This is the unit of project state in Git
