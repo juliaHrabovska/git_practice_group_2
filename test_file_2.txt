@@ -13,7 +13,7 @@ Test
 - Status means the file has been added to the commit
 
 3. What is a commit?
-- This is the unit of project state in Git
+- This is the unit of project state in Git :)
 
 4. How to make a commit?
 - Just type git commit at any time
