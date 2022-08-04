@@ -1,30 +1,36 @@
 Test
 
-1. What does the file status new mean in the output of the git status command?
+1. How many version control systems are?
+- Git only
+- Git and SVN
+- Git and CVS
+- A lot
 
-- That the file has just been created and is not yet tracked by Git.
+2. What is GitHub (GitLub, BitBucket)?
+- Program for working with Git
+- Driver for Git
+- Web service for hosting IT projects and their joint development based on Git
+- UI for working with local Git
 
-2. What does the status of a modified file mean in the output of the git status command?
+3. What is a Git repository?
+- Any directory/folder in my OS
+- Any folder inside Git
+- A Git repository is a directory on the file system that contains repository configuration files, log files that store operations performed on the repository, an index that describes the location of the files, and a repository that contains the actual files.
+- The .git/ folder and everything in it
 
-- That the file has a history in the Git system and has been modified from its last state.
+4. What does the "git add" command do?
+- Creates a file with the given name and immediately adds it to Git
+- Adds a local file to a remote repository so that other project members can see it
+- This is an alias/synonym for the git commit command
+- Starts monitoring the specified file or files
 
-3. What is a commit?
-- This is the unit of project state in Git
-
-4. How to make a commit?
-- Make changes, compile these changes with the command "git add" or "git commit -a" and specify the commit message after the "-m" switch
-
-
-5. In what situation should you do git status?
-- Only if you need to find out what status the repository is in, otherwise this command is not mandatory for any manipulation
+5. What does the untracked status of a file mean in the output of the git status command?
+- That the Git system is not tracking this file
+- That the file has been removed from Git
+- That the file is outside the Git repository
+- That the file is added to .gitignore
 
 Text
 
-Branches
-
-
- branches.
-
-When you make a commit, Git stores a commit object that contains a pointer to the snapshoooooot of the content you staged. This object also contains the authoooooor’s name and email addrrrrrrrress, the messsssssssage that you typed, and poinnnnnnnters to the commit or commits that directly came before this commit (its parent or parents): zero parents for the inittttttttial commit, one parent for a normal commit, and multiple parents for a commit that results from a merge of two or more
-
-
+Recording Changes to the Repository
+Remember that each file in your working directory can be in one of two states: traaaaaaaacked or unnnnnntracked. Trrrrrrrracked files are files that were in the last snapshooooooot, as well as any newly stagggggged files; they can be unmmmmmodified, modiffffffied, or sssssstaged. In short, trackkkkkked files are files that GitGitGitGit knows about.
