@@ -19,10 +19,9 @@ Test
 - This word does not mean anything, it was introduced only to confuse beginners
 
 4. How to make a commit?
-- Just type git commit at any time
-- Make changes to files and list them after git commit. For example: git commit a.file, b.file
+
 - Make changes, compile these changes with the command "git add" or "git commit -a" and specify the commit message after the "-m" switch
-- You can’t commit, because there is no such thing
+
 
 5. In what situation should you do git status?
 - The more often the better
